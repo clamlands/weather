@@ -1,0 +1,13 @@
+SETUP USED FOR SUCCESSFUL DEV SERVER
+
+//CLI
+npm init -y
+npm install webpack webpack-cli --save-dev
+
+npm install --save-dev style-loader css-loader
+
+npm install --save-dev webpack-dev-server
+
+ESLint
+npm install eslint --save-dev
+./node_modules/.bin/eslint --init

@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    color: white;
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.results{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.temp{
+    font-size: 120px;
+    margin: -20px 0;
+}
+
+.description{
+    font-size: 25px;
+    margin: 0;
+}
+
+.location{
+    margin: 0;
+}
+
+.block-2{
+    display: flex;
+    gap: 15px;
+}
+
+.block-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+input{
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    padding: 3px 0 3px 8px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.verify{
+    color: rgb(182, 0, 0);
+    margin: 3px 0 0 4px;
+}
